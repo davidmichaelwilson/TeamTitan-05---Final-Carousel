@@ -1,0 +1,383 @@
+body {
+   width: 800px;
+  margin:60px auto;
+  background-color: black;
+  
+  background-image: url("images/type.png");
+  background-size: cover;
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+}
+
+
+
+
+
+h1 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  line-height: 20%;
+font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+}
+strong {
+  font-size: 17px;
+  margin-left: 5px;
+}
+h2 {
+  color: black;
+  font-size: 40px;
+text-align: center;
+  margin-top: 85px;
+  margin-left:-500px;
+  line-height: 100%;
+font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+
+
+}
+h2:hover {
+  color:red;
+}
+big {
+  font-size: 60px;
+  font-weight: 700;
+}
+shoe {
+  margin-left: 200px;
+}
+h3 {
+    font-size: 40px;
+text-align: center;
+  
+  line-height: 20%;
+font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+  
+}
+p {
+     font-size: 20px;
+  
+font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+  
+}
+
+
+
+
+
+header, section {
+  padding: 50px;
+}
+header {
+  background: white;
+  color: white;
+}
+.section-one {
+ padding-bottom: 70px;
+  background-color:whitesmoke;
+ 
+  color: #252525,
+     font-family:"Roboto";
+  font-weight: 100;
+}
+.section-two {
+padding-bottom: 170px;
+   text-align: left;
+   height: 170px;
+  background-image: url("images/jordan.png");
+  background-size: cover;
+  color: white;
+ 
+}
+
+.section-two p {
+color: white;
+}
+.carousel {
+  max-width: 600px;
+  position: relative;
+}
+
+.carousel .carousel-item, carousel .carousel-item-hidden {
+  display: none;
+}
+
+.carousel .carousel-item-visible {
+  display: block;
+  animation: fadeVisibility 1s;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+  .carousel-actions {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  position: absolute;
+  transform: translateY(-50%);
+    margin-left: 270px;
+}
+
+ .carousel .carousel-actions button {
+  border-radius: 50px;
+  background-color: white;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+  margin-left: 20px;
+ 
+}
+
+ .carousel .carousel-actions button#carousel-button-next {
+  margin-right: 20px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+#open-modal  {
+ cursor: pointer;
+}
+#close-modal {
+font-size: 20px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: auto;
+  position: relative;
+  text-align: right;
+ 
+}
+
+
+#modal {
+   padding:20px;
+  height: 400px;
+   margin:  0  auto; 
+    max-width:  900px;
+  position: relative;
+  top: 30%;
+}
+
+
+
+
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
+  
+}
+.poster img {
+
+}
+ #red {
+   font-size: 15px;
+  background:red;
+  color: bkack;
+  border-radius: 10px;
+  margin-left: 10%;
+  font-family: 'Teko', sans-serif;
+font-weight: 400;
+   border-color: none;
+
+font-style: medium;
+   }
+name {
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+font-weight: 400;
+   border-color: none;
+  margin-left: -100px;
+}
+po {
+  margin-left: -50px;
+}
+header img {
+  margin-left: 300px;
+  margin-top: -10px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+footer {
+
+  color: white;
+  background-color: black;
+  padding: 50px;
+}
+
+
+	
+Band  {
+
+	  
+	font-size: 30px;
+	color:black;
+	width: 100px;
+	  height: 100px;
+	  position: relative;
+	  animation: mymove 8s infinite;
+	  animation-delay: 0s;
+  animation-direction: alternate;
+  
+	font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+
+}
+
+
+
+@keyframes mymove {
+ 
+  from {left: 5px;}
+  to {left: 600px;}
+}
+
+
+.sign {
+  width: 800px;
+  margin-top: -30px;
+ margin-bottom: 50px;
+  margin-left: -50px;
+   background-color:whitesmoke;
+
+  
+}
+a {
+  color: white;
+  text-decoration: none
+}
+
+#black  {
+  font-size: 15px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  margin-left: 47%;
+  font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+}
+.hide {
+  font-size: 60px;
+  position: absolute;
+  margin-top:-150px;
+  display: none;
+  color: black;
+  
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+ 
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+sub {
+  font-size: 45px;
+  	font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+
+}
+white {
+   font-size: 25px;
+  	font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+
+  
+}
+.jump img {
+  width: 50px;
+  background-color: red;
+ 
+  border-radius: 10px;
+}
+

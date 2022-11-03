@@ -1,0 +1,61 @@
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  margin-left: 100px;
+  float: left;
+  width: 33.33%;
+  
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
+body {
+  
+ width: 1400px;
+  margin:60px auto;
+  background-color: black;
+  
+  background-image: url("images/type.png");
+  background-size: cover;
+}
+
+
+
+
+
+p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 20%;
+font-family: 'Teko', sans-serif;
+font-weight: 400;
+
+font-style: medium;
+}
+.jump img {
+  width: 50px;
+  background-color: white;
+  margin-left: 1100px;
+  border-radius: 10px;
+}
